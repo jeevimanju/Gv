@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-	int n,a[40],b[67],i,c;
+	int n,a[40],b[67],i,s;
 	scanf("%d",&n);
 	for(i=0;i<n;i++)
 	{
@@ -9,8 +9,8 @@ int main()
 	}
 	for(i=0;i<n;i++)
 	{
-		c=a[i]-b[i];
-		printf("%d\n",c);
+		s=a[i]-b[i];
+		printf("%d\n",s);
 	}
 	return 0;
 }
